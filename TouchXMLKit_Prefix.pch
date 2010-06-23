@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'TouchXMLKit' target in the 'TouchXMLKit' project
+//  TouchXMLKit
+//
+//  Created by Jeffrey Sambells on 10-06-17.
+//  Copyright We-Create Inc. 2010. All rights reserved.
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
