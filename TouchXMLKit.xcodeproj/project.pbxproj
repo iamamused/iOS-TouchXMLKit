@@ -42,7 +42,7 @@
 		DDC1936611CA5FA200DD6C89 /* CXMLNode_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC1936011CA5FA200DD6C89 /* CXMLNode_CreationExtensions.h */; };
 		DDC1936711CA5FA200DD6C89 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC1936111CA5FA200DD6C89 /* CXMLNode_CreationExtensions.m */; };
 		DDC1937B11CA607800DD6C89 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC1931F11CA5E9800DD6C89 /* libxml2.dylib */; };
-		DDED24731178085C00DAD7DB /* libTouchXMLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7CF8E911720A330028A53F /* libTouchXMLKit.a */; };
+		DDED24731178085C00DAD7DB /* libTouchXMLKitMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7CF8E911720A330028A53F /* libTouchXMLKitMobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TouchXMLKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXMLKit_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TouchXMLKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TouchXMLKit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		DD7CF8E911720A330028A53F /* libTouchXMLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchXMLKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7CF8E911720A330028A53F /* libTouchXMLKitMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTouchXMLKitMobile.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7CF970117211070028A53F /* TouchXMLKit.framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchXMLKit.framework-Info.plist"; sourceTree = "<group>"; };
 		DD7CFA3611721D890028A53F /* TouchXMLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXMLKit.h; path = include/TouchXMLKit/TouchXMLKit.h; sourceTree = "<group>"; };
 		DDC192D811CA5D2B00DD6C89 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = include/TouchXMLKit/CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDED24731178085C00DAD7DB /* libTouchXMLKit.a in Frameworks */,
+				DDED24731178085C00DAD7DB /* libTouchXMLKitMobile.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* TouchXMLKit.app */,
-				DD7CF8E911720A330028A53F /* libTouchXMLKit.a */,
+				DD7CF8E911720A330028A53F /* libTouchXMLKitMobile.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			);
 			name = TouchXMLKitMobile;
 			productName = TouchXMLKitMobile;
-			productReference = DD7CF8E911720A330028A53F /* libTouchXMLKit.a */;
+			productReference = DD7CF8E911720A330028A53F /* libTouchXMLKitMobile.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
