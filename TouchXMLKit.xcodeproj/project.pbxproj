@@ -378,7 +378,16 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TouchXMLKit_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"\"$(PROJECT_DIR)/include/\"",
+				);
 				INFOPLIST_FILE = "TouchXMLKit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = TouchXMLKit;
 				VALIDATE_PRODUCT = YES;
 			};
